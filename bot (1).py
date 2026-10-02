@@ -6,8 +6,8 @@ import string
 import requests
 from datetime import datetime, timezone
 
-TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+TOKEN = os.getenv("8982851762:AAHM7i09N62MGuHWHvwnQSlXI0tvZR2HeXg")
+ADMIN_ID = int(os.getenv("7232582251", "0"))
 
 API = f"https://api.telegram.org/bot{TOKEN}"
 DB_FILE = "content.json"
